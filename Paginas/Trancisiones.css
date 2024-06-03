@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.animated-element {
+    width: 100px;
+    height: 100px;
+    background-color: #007bff;
+    color: #fff;
+    display: inline-block;
+    margin: 10px;
+    line-height: 100px;
+    font-size: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.animated-element:hover {
+    transform: scale(2);
+    background-color: #ff6347;
+}

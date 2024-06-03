@@ -1,0 +1,53 @@
+/* Resetting default browser styles */
+body, h1, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 50px;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid #fff;
+    border-radius: 25px;
+    font-size: 1.2em;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.button:hover {
+    background: rgba(255, 255, 255, 0.4);
+    transform: scale(1.1);
+}
+
+.button:active {
+    background: rgba(255, 255, 255, 0.6);
+    transform: scale(1);
+}
