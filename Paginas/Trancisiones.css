@@ -15,6 +15,36 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+body {
+  background-color: #1a202c;
+}
+
+.logo {
+  border-radius: 50%;
+  transition: transform .5s ease;
+  width: 150px;
+}
+
+.moveToRight {
+  transform: translateX(500px) scale(1) rotate(360deg);
+}
+
+.movimiento {
+  background-color: hsla(205, 90%, 60%, 1);
+  border: 1px solid white;
+  border-radius: 4px;
+  color: #1a202c;
+  font-size: 1.2em;
+  margin: 1em;
+  padding: .2em .4em;
+}
+
+.handler:hover {
+  background-color: hsla(205, 90%, 50%, 1);
+}
+
+
+
 .container {
     width: 100%;
     max-width: 800px;
