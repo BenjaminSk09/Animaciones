@@ -5,6 +5,16 @@ body {
     padding: 0;
 }
 
+header {
+    background: rgb(230, 238, 174);
+    background: radial-gradient(circle, rgba(230, 238, 174, 1) 0%, rgba(233, 163, 148, 1) 100%);
+    color: black;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .container {
     width: 100%;
     max-width: 800px;
@@ -15,7 +25,7 @@ body {
 .animated-element {
     width: 100px;
     height: 100px;
-    background-color: #007bff;
+    background-color: orange;
     color: #fff;
     display: inline-block;
     margin: 10px;
@@ -30,4 +40,14 @@ body {
 .animated-element:hover {
     transform: scale(2);
     background-color: #ff6347;
+}
+
+footer {
+    background: rgb(230, 238, 174);
+    background: radial-gradient(circle, rgba(230, 238, 174, 1) 0%, rgba(233, 163, 148, 1) 100%);
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
 }
