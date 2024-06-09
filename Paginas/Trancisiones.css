@@ -19,6 +19,17 @@ body {
   background-color: #1a202c;
 }
 
+.logo2 {
+  border-radius: 50%;
+  transition: width .25s, box-shadow .25s;
+  width: 150px;
+}
+
+.logo2:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,.2);
+  width: 200px;
+}
+
 .logo {
   border-radius: 50%;
   transition: transform .5s ease;
